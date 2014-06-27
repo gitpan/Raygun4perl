@@ -1,0 +1,36 @@
+---
+abstract: 'Connect to the Raygun.io API'
+author:
+  - 'Travis Holton <heytrav@cpan.org>'
+build_requires:
+  Test::Class: '0'
+  Test::Deep: '0'
+  Test::Exception: '0'
+  Test::More: '0'
+  parent: '0'
+  strict: '0'
+  warnings: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '6.30'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141520'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Raygun4perl
+requires:
+  DateTime: '0'
+  DateTime::Format::Strptime: '0'
+  Filesys::DfPortable: '0'
+  HTTP::Request: '0'
+  JSON: '0'
+  LWP::UserAgent: '0'
+  Mouse: '0'
+  Mouse::Util::TypeConstraints: '0'
+  Mozilla::CA: '0'
+  POSIX: '0'
+  Sys::Info: '0'
+  Sys::Info::OS: '0'
+  URI: '0'
+version: '0.001'
