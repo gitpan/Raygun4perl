@@ -16,8 +16,7 @@ Raygun4perl::Message::Error - Encapsulate the error part of the raygion.io reque
 
 =head1 DESCRIPTION
 
-# longer description...
-
+You shouldn't need to instantiate this class directly.
 
 =head1 INTERFACE
 

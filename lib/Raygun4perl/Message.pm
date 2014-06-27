@@ -86,8 +86,7 @@ Raygun4perl::Message - A message to be sent to raygun.io
 
 =head1 DESCRIPTION
 
-# longer description...
-
+This module assembles a request for raygun.io.
 
 =head1 INTERFACE
 

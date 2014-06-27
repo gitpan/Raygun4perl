@@ -33,4 +33,4 @@ requires:
   Sys::Info: '0'
   Sys::Info::OS: '0'
   URI: '0'
-version: '0.001'
+version: '0.004'

@@ -18,13 +18,12 @@ Raygun4perl::Messenger - Communicate with the Raygun.io endpoint.
   use Raygun4perl::Messenger;
 
   my $raygun = Raygun4perl::Messenger->new(api_key => 'your key here');
-  my $response = $raygun->post($exception);
+  my $response = $raygun->fire_the_laser($raygun_message);
   # $response->status == ?
 
 =head1 DESCRIPTION
 
-# longer description...
-#
+Send a request to raygun.io.
 
 =head1 INTERFACE
 
@@ -79,13 +78,7 @@ sub fire_the_laser {
 
 }
 
-=head1 DEPENDENCIES
 
-
-=head1 SEE ALSO
-
-
-=cut
 
 1;
 
